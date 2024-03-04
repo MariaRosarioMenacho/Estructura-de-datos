@@ -1,0 +1,11 @@
+Class Cuadrado:
+    def _init_(self, lado):
+        self.lado=lado
+    def Area(self):
+        area=self.lado*self.lado
+        return area
+        
+        
+lado=float(input("Ingrese el lado del cuadrardo: "))
+area=cuadrado.Area()
+print("El area del cuadrado es: ",area)
