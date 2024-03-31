@@ -1,0 +1,4 @@
+base=float(input(“ingrése la longitud”))
+altura=float(input(“ingrese la altura”))
+a=base*altura
+print(“el area es:”,a)
