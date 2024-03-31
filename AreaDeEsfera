@@ -1,0 +1,5 @@
+print(“Ingrese el radio:”)
+radio=int(input())
+r=radio*radio
+z=3.1416*(r)
+print(“el area es:”,z)
