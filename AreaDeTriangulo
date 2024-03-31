@@ -1,0 +1,4 @@
+b=int(input(“ingrése la base:”))
+a=int(input(“ingrese la altura:”))
+area=b*a/2
+print(“el resultado es:”, area)
