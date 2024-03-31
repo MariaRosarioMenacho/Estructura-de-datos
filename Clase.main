@@ -1,0 +1,28 @@
+#include <iostream>
+#include <iostream>
+#include “Humano.h”
+using namespace std;
+int main()
+{
+Humano Ronald ();
+int edad, op;
+string nombre, ocupacion;
+cout<<“MENU”<<endl;
+cout<<“1. Edad”<<endl;
+cout<<“2.Nombre”<<endl;
+cout<<“3.Ocupacion”<<endl;
+cout<<“0.SALIR”<<endl;
+cout<<“Elija su opción”<<endl;
+cin>>op;
+switch(op)
+{
+case 1: Ronald.set_edad(edad);
+  break;
+case 2: Ronald.nombre(nombre);
+   break;
+case 3: Ronald.ocupacion(ocupacion);
+   break;
+default;
+}
+return 0;
+}
