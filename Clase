@@ -1,0 +1,7 @@
+Class Cuadrado():
+def_init_(self, lado):
+self.base=lado
+L=int(int(input(“Ingrese el lado”))
+Cuadrado1=Cuadrado(L)
+Area=Cuadrado1lado*Cuadrado1lado
+print(“El area es: “, Area)
