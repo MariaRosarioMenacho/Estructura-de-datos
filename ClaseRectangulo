@@ -1,0 +1,9 @@
+class rectángulo
+{
+private:
+int base;
+int altura;
+public:
+rectángulo ();
+float área(int a, int b)
+}
