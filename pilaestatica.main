@@ -1,0 +1,15 @@
+#include <iostream>
+#include "pila.h"
+using namespace std;
+
+int main() {
+    Pila pila;
+
+    pila.push(5);
+    pila.push(10);
+    pila.push(15);
+
+    cout << "Elemento eliminado: " << pila.pop() <<endl;
+
+    return 0;
+}
