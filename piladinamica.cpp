@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 class Nodo {
 public:
     int dato;
@@ -13,6 +14,7 @@ public:
         sig = NULL;
     }
 };
+
 class Pila {
 private:
     Nodo* tope;
