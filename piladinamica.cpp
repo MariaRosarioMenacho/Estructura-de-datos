@@ -13,3 +13,19 @@ public:
         sig = NULL;
     }
 };
+class Pila {
+private:
+    Nodo* tope;
+
+public:
+    Pila() {
+        tope = NULL;
+    }
+
+    void push();
+    void pop();
+    void show();
+    void top();
+    void size();
+};
+
